@@ -106,7 +106,7 @@ const Page = () => {
                             Create Your
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-400"> Perfect Meal</span>
                         </h1>
-                        <p className="text-gray-300 text-lg">Tell us about your goals and ingredients - we'll handle the rest</p>
+                        <p className="text-gray-300 text-lg">Tell us about your goals and ingredients - we will handle the rest</p>
                     </div>
 
                     {/* Form Container */}
@@ -116,7 +116,7 @@ const Page = () => {
                         <div className="space-y-4">
                             <div className="flex items-center space-x-3 mb-4">
                                 <Target className="w-6 h-6 text-yellow-400" />
-                                <label className="text-lg font-semibold text-white">What's your goal?</label>
+                                <label className="text-lg font-semibold text-white">Choose your goal</label>
                             </div>
                             <select
                                 value={goal}
