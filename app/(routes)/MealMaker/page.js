@@ -121,7 +121,7 @@ const Page = () => {
                             <select
                                 value={goal}
                                 onChange={(e) => setGoal(e.target.value)}
-                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400/50 focus:border-yellow-400/50 transition-all appearance-none cursor-pointer"
+                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-md placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400/50 focus:border-yellow-400/50 transition-all appearance-none cursor-pointer"
                                 disabled={loading}
                             >
                                 <option value="" disabled className="bg-gray-800 text-gray-300">Pick your fitness goal</option>
