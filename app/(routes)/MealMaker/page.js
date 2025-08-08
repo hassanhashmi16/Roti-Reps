@@ -115,13 +115,13 @@ const Page = () => {
                         {/* Goal Selection */}
                         <div className="space-y-4">
                             <div className="flex items-center space-x-3 mb-4">
-                                <Target className="w-6 h-6 text-yellow-400" />
-                                <label className="text-lg font-semibold text-white">Choose your goal</label>
+                                <Target className="w-5 h-5 text-yellow-400" />
+                                <label className="text-md font-semibold text-white">Choose your goal</label>
                             </div>
                             <select
                                 value={goal}
                                 onChange={(e) => setGoal(e.target.value)}
-                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-4 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400/50 focus:border-yellow-400/50 transition-all appearance-none cursor-pointer"
+                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400/50 focus:border-yellow-400/50 transition-all appearance-none cursor-pointer"
                                 disabled={loading}
                             >
                                 <option value="" disabled className="bg-gray-800 text-gray-300">Pick your fitness goal</option>
@@ -134,8 +134,8 @@ const Page = () => {
                         {/* Weight Input */}
                         <div className="space-y-4">
                             <div className="flex items-center space-x-3 mb-4">
-                                <Weight className="w-6 h-6 text-amber-400" />
-                                <label className="text-lg font-semibold text-white">Enter your weight</label>
+                                <Weight className="w-5 h-5 text-amber-400" />
+                                <label className="text-md font-semibold text-white">Enter your weight</label>
                             </div>
                             <div className="relative">
                                 <input
@@ -143,7 +143,7 @@ const Page = () => {
                                     value={weight}
                                     onChange={(e) => setWeight(e.target.value)}
                                     placeholder="Enter weight in kg"
-                                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-4 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all"
+                                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all"
                                     disabled={loading}
                                 />
                             </div>
@@ -152,8 +152,8 @@ const Page = () => {
                         {/* Height Input */}
                         <div className="space-y-4">
                             <div className="flex items-center space-x-3 mb-4">
-                                <Ruler className="w-6 h-6 text-amber-400" />
-                                <label className="text-lg font-semibold text-white">Enter your height</label>
+                                <Ruler className="w-5 h-5 text-amber-400" />
+                                <label className="text-md font-semibold text-white">Enter your height</label>
                             </div>
                             <div className="relative">
                                 <input
@@ -161,7 +161,7 @@ const Page = () => {
                                     value={height}
                                     onChange={(e) => setHeight(e.target.value)}
                                     placeholder="Enter height in cm"
-                                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-4 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all"
+                                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all"
                                     disabled={loading}
                                 />
                             </div>
@@ -170,15 +170,15 @@ const Page = () => {
                         {/* Ingredients Input */}
                         <div className="space-y-4">
                             <div className="flex items-center space-x-3 mb-4">
-                                <ChefHat className="w-6 h-6 text-orange-400" />
-                                <label className="text-lg font-semibold text-white">What ingredients do you have?</label>
+                                <ChefHat className="w-5 h-5 text-orange-400" />
+                                <label className="text-md font-semibold text-white">What ingredients do you have?</label>
                             </div>
                             <textarea
                                 value={ingredients}
                                 onChange={(e) => setIngredients(e.target.value)}
                                 placeholder="e.g., paneer, chicken, spinach, onions, tomatoes, masala..."
                                 rows={5}
-                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-4 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-400/50 focus:border-orange-400/50 transition-all resize-none"
+                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-400/50 focus:border-orange-400/50 transition-all resize-none"
                                 disabled={loading}
                             />
                         </div>
@@ -186,15 +186,15 @@ const Page = () => {
                         {/* Suggestions */}
                         <div className="space-y-4">
                             <div className="flex items-center space-x-3 mb-4">
-                                <Pen className="w-6 h-6 text-orange-400" />
-                                <label className="text-lg font-semibold text-white">Suggestions</label>
+                                <Pen className="w-5 h-5 text-orange-400" />
+                                <label className="text-md font-semibold text-white">Suggestions</label>
                             </div>
                             <textarea
                                 value={suggestions}
                                 onChange={(e) => setSuggestions(e.target.value)}
                                 placeholder="Any specific preferences or requirements..."
                                 rows={5}
-                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-4 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-400/50 focus:border-orange-400/50 transition-all resize-none"
+                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-400/50 focus:border-orange-400/50 transition-all resize-none"
                                 disabled={loading}
                             />
                         </div>
@@ -202,9 +202,9 @@ const Page = () => {
                         {/* Pantry Toggle */}
                         <div className="flex items-center justify-between p-8 bg-white/5 rounded-xl border border-white/10">
                             <div className="flex items-center space-x-3">
-                                <Package className="w-6 h-6 text-yellow-400" />
+                                <Package className="w-5 h-5 text-yellow-400" />
                                 <div>
-                                    <p className="text-white font-medium text-lg">Include basic pantry items?</p>
+                                    <p className="text-white font-medium text-md">Include basic pantry items?</p>
                                     <p className="text-gray-400 text-base">Rice, oil, basic spices, salt, etc.</p>
                                 </div>
                             </div>
