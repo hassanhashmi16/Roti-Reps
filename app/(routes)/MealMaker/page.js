@@ -143,7 +143,7 @@ const Page = () => {
                                     value={weight}
                                     onChange={(e) => setWeight(e.target.value)}
                                     placeholder="Enter weight in kg"
-                                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all"
+                                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all"
                                     disabled={loading}
                                 />
                             </div>
@@ -161,7 +161,7 @@ const Page = () => {
                                     value={height}
                                     onChange={(e) => setHeight(e.target.value)}
                                     placeholder="Enter height in cm"
-                                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all"
+                                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-400/50 focus:border-amber-400/50 transition-all"
                                     disabled={loading}
                                 />
                             </div>
@@ -178,7 +178,7 @@ const Page = () => {
                                 onChange={(e) => setIngredients(e.target.value)}
                                 placeholder="e.g., paneer, chicken, spinach, onions, tomatoes, masala..."
                                 rows={5}
-                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-400/50 focus:border-orange-400/50 transition-all resize-none"
+                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-400/50 focus:border-orange-400/50 transition-all resize-none"
                                 disabled={loading}
                             />
                         </div>
@@ -194,7 +194,7 @@ const Page = () => {
                                 onChange={(e) => setSuggestions(e.target.value)}
                                 placeholder="Any specific preferences or requirements..."
                                 rows={5}
-                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-lg placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-400/50 focus:border-orange-400/50 transition-all resize-none"
+                                className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-2 text-white text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-400/50 focus:border-orange-400/50 transition-all resize-none"
                                 disabled={loading}
                             />
                         </div>
